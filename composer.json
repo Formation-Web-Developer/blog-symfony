@@ -1,6 +1,14 @@
 {
+    "name": "neutronstars/blog_symfony",
+    "description": "Création d'un blog lors de l'initiation à Symfony.",
+    "authors": [
+        {
+            "name": "NeutronStars",
+            "email": "pro@neutronstars.fr"
+        }
+    ],
     "type": "project",
-    "license": "proprietary",
+    "license": "Apache-2.0",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
@@ -39,6 +47,8 @@
         "symfony/validator": "5.2.*",
         "symfony/web-link": "5.2.*",
         "symfony/yaml": "5.2.*",
+        "symfonycasts/reset-password-bundle": "^1.5",
+        "symfonycasts/verify-email-bundle": "^1.2",
         "twig/extra-bundle": "^2.12|^3.0",
         "twig/twig": "^2.12|^3.0"
     },
